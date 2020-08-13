@@ -7,4 +7,4 @@ White ball: 1 point , Blue ball: 2 point
 The player who first scored over 11 WIN the Game!
 GOOD LUCK!
 
-<center><img src="/preview.png"></center>
+<img src="/preview.png">
