@@ -6,3 +6,5 @@ The game will start in 3 seconds. Please be ready! Use your mouse to control the
 White ball: 1 point , Blue ball: 2 point 
 The player who first scored over 11 WIN the Game!
 GOOD LUCK!
+
+<center><img src="/preview.png"></center>
