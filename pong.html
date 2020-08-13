@@ -1,0 +1,81 @@
+<!-- 
+    I have add some code inside the <style> lable and <body> lable 
+    to modify and display
+    - the instruction of game 
+    - the score of each player
+    - countDown
+    - the winner
+ -->
+
+
+
+<html>
+    <head>
+        <style>
+            @import url(style.css);
+            p.highlight {
+                color: red;
+            }
+            svg {
+                background-color: rgb(41, 41, 36);
+            }
+
+            /* eddited here */
+            #player1Score {
+                font-size: 60px;
+                color: white;
+                position: fixed;
+                top: 100px;
+                left: 180px;
+            }
+            #player2Score {
+                font-size: 60px;
+                color: white;
+                position: fixed;
+                top: 100px;
+                left: 585px;
+            }
+
+            #result {
+                font-size: 100px;
+                color: white;
+                position: fixed;
+                top: 250px;
+                left:150px;
+                
+            }
+
+            #countDown {
+                font-size: 100px;
+                color: white;
+                position: fixed;
+                top: 250px;
+                left:375px;
+
+            /* until HERE */
+        
+            }
+
+        </style>
+        <script src="svgelement.js"></script>
+        <script src="observable.js"></script>
+        <script src="pong.js"></script>
+    </head>
+    <body>
+        <!-- eddited here -->
+        <h1>Pong</h1>
+        <!-- until HERE    -->
+
+        <svg id="canvas" width="800" height="600"></svg>
+
+
+
+        <!-- eddited here -->
+        <p id="player1Score">0</p>
+        <p id="player2Score">0</p>
+        <p id="countDown">3</p>
+        <p id="result"></p>
+         <!-- until HERE    -->
+
+    </body>
+</html>
